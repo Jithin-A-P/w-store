@@ -1,0 +1,15 @@
+{
+  "name": "w-store",
+  "version": "1.0.0",
+  "description": "An online store to purchase various goods for day to day use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Jithin A P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
