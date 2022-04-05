@@ -12,7 +12,7 @@ const Categories = () => {
     <Container>
         {
             categories.map(item=>(
-                <CatergoryItem item={item}/>
+                <CatergoryItem item={item} key={item.id}/>
             ))
         }
     </Container>
